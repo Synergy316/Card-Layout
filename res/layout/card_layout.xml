@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#C0C0C0">
+
+    <!-- Card Layout -->
+    <RelativeLayout
+        android:id="@+id/card_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:layout_margin="20dip"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:fadingEdge="vertical">
+
+        <!--  Card Content -->
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#FF0000"
+            android:text="Title" />
+        
+        <TextView
+            android:id="@+id/card_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:text="Content" />
+    </RelativeLayout>
+    
+</LinearLayout>
