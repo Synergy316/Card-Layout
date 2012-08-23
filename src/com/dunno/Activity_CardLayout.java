@@ -63,6 +63,7 @@ public class Activity_CardLayout extends ListActivity
 			TextView title = (TextView) v.findViewById(R.id.card_title);
 			TextView content = (TextView) v.findViewById(R.id.card_content);
 			
+			// Set content
 			if (c != null)
 			{
 				title.setText(c.getTitle());
